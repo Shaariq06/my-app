@@ -19,10 +19,11 @@ header a {
     background-color: darkcyan;
     overflow: hidden;
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
     font-weight: bold;
     align-items: center;
     width: 100%;
+    z-index: 1;
 }
 
 .navbar a {
@@ -93,6 +94,7 @@ ul {
     flex-direction: column;
     justify-content: flex-start;
     margin-top: 0px;
+    z-index: 2;
 }
 
 
