@@ -26,7 +26,8 @@ const Nav = ({ links }) => {
         <div className="bar1" style={{ display: !isActive ? "block" : "none" }}></div>
         <div className="bar2" style={{ display: !isActive ? "block" : "none" }}></div>
         <div className="bar3" style={{ display: !isActive ? "block" : "none" }}></div>
-        <div className="x" style={{ display: isActive ? "block" : "none" }}>X</div>
+        <div className="x1" style={{ display: isActive ? "block" : "none" }}></div>
+        <div className="x2" style={{ display: isActive ? "block" : "none" }}></div>
         <ul className={`mobile-menu + ${isActive ? "open" : ""} `}>
           {links.map(({ link, label }, i) => (
             <li key={i}>
